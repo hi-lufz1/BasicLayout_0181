@@ -1,6 +1,6 @@
 # basic_layout
 
-<img src="https://github.com/user-attachments/assets/fb5f91c7-4045-4f31-ada8-6d903591570d" alt="image" style="width:30%;"/>
+<img src="https://github.com/user-attachments/assets/eca0fcd8-6dc1-4f72-8678-10402e6201de" alt="image" style="width:30%;"/>
 
 
 ## Getting Started
