@@ -1,6 +1,7 @@
 # basic_layout
 
-A new Flutter project.
+![image](https://github.com/user-attachments/assets/fb5f91c7-4045-4f31-ada8-6d903591570d)
+
 
 ## Getting Started
 
