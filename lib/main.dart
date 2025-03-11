@@ -92,7 +92,15 @@ class HomePage extends StatelessWidget {
              SizedBox(height: 10),
             Text('Sunny', style: TextStyle(fontSize: 24, color: Colors.grey)),
              SizedBox(height: 10),
-            Text('❄ 5 km/h', style: TextStyle(fontSize: 20, color: Colors.blue)),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+               children: [
+               Icon(Icons.ac_unit, color: Colors.blue, size: 24), 
+               SizedBox(width: 4), 
+              Text('5 km/h', style: TextStyle(fontSize: 20, color: Colors.blue),
+        ),
+      ],
+    ),
             SizedBox(height: 16),
             Container(
               padding: EdgeInsets.all(16),
@@ -132,13 +140,13 @@ class HomePage extends StatelessWidget {
     return Column(
       children: [
       Text(time, style: TextStyle(fontSize: 20,)),
-      SizedBox(height: 10), 
+      SizedBox(height: 12), 
       Icon(Icons.ac_unit, color: Colors.blue, size: 28,),
       Text(temp, style: TextStyle(color: Colors.blue, fontSize: 20,)),
-      SizedBox(height: 10),
+      SizedBox(height: 12),
        Icon(Icons.wind_power_sharp, color: Colors.pink, size: 28,),
       Text('$wind', style: TextStyle(color: Colors.pink,fontSize: 20), ),
-      SizedBox(height: 10),
+      SizedBox(height: 12),
       Icon(Icons.umbrella_sharp, size: 28,),
       Text('$humidity', style: TextStyle(fontSize: 20),),
     ],
