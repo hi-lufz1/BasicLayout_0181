@@ -66,7 +66,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             IconButton(
-              icon: Icon(Icons.add, color: Colors.black),
+              icon: Icon(Icons.add_box, color: Colors.black),
               onPressed: () {
               },
             ),
@@ -133,15 +133,15 @@ class HomePage extends StatelessWidget {
       children: [
       Text(time, style: TextStyle(fontSize: 20,)),
       SizedBox(height: 10), 
-      Text('❄',  style: TextStyle(fontSize: 20),),
+      Icon(Icons.ac_unit, color: Colors.blue, size: 28,),
       Text(temp, style: TextStyle(color: Colors.blue, fontSize: 20,)),
       SizedBox(height: 10),
-      Text('💨',  style: TextStyle(fontSize: 20),),
+       Icon(Icons.wind_power_sharp, color: Colors.pink, size: 28,),
       Text('$wind', style: TextStyle(color: Colors.pink,fontSize: 20), ),
       SizedBox(height: 10),
-      Text('💧',  style: TextStyle(fontSize: 20),),
+      Icon(Icons.umbrella_sharp, size: 28,),
       Text('$humidity', style: TextStyle(fontSize: 20),),
     ],
     );
   }
-}
+} 
